@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Список дел</title>
+</head>
+<body>
+    <section class="container">
+        <div class="stroka">
+            <h1>Список дел</h1>
+            <p class="subtitle">Список пуст...</p>
+            <ul class="list-tasks">
+
+            </ul>
+        </div>
+
+
+        <div class="dela">
+            <h1>Добавить новое дело</h1>
+            <form action="#">
+                <div class="field">
+                    <label for="title"><span>Название</span></label>
+                    <input type="text" maxlength="50" id="title" name="title" required>
+                    <label for="description"><span>Описание</span></label>
+                    <textarea name="description" id="description" cols="30" rows="10" maxlength="480" required></textarea>
+                    <input type="submit" class="add-task" value="Добавить дело">
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
